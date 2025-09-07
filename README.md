@@ -1,1 +1,1 @@
-Marketplace project
+Marketplace project (Diplom)
