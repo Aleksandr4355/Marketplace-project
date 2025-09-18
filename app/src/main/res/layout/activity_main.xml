@@ -12,9 +12,12 @@
     <androidx.appcompat.widget.SearchView
         android:id="@+id/search_displays_product"
         android:layout_width="match_parent"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
         android:layout_height="37dp"
-        android:layout_marginTop="24dp"
-        android:background="@color/red" />
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/style_search_panel"/>
 
     <FrameLayout
         android:layout_width="match_parent"
@@ -24,8 +27,7 @@
         <ScrollView
             android:id="@+id/scrollView_fragment_displays_product"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:background="@color/green" />
+            android:layout_height="match_parent" />
 
     </FrameLayout>
     
@@ -33,7 +35,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_marginBottom="10dp"
-        android:layout_weight="5"
+        android:layout_weight="6"
         android:orientation="horizontal">
 
         <ImageView
