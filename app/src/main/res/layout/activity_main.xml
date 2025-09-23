@@ -5,7 +5,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/ser"
+    android:background="@color/white"
     android:orientation="vertical"
     tools:context=".MainActivity">
 
@@ -14,8 +14,8 @@
         android:layout_width="match_parent"
         android:layout_marginStart="10dp"
         android:layout_marginEnd="10dp"
-        android:layout_height="37dp"
-        android:layout_marginTop="30dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="40dp"
         android:layout_marginBottom="10dp"
         android:background="@drawable/style_search_panel"/>
 
@@ -27,15 +27,17 @@
         <ScrollView
             android:id="@+id/scrollView_fragment_displays_product"
             android:layout_width="match_parent"
-            android:layout_height="match_parent" />
+            android:layout_height="match_parent"
+            android:background="@color/fon_screen_product"/>
 
     </FrameLayout>
     
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_marginBottom="10dp"
-        android:layout_weight="6"
+        android:layout_marginTop="6dp"
+        android:layout_marginBottom="9dp"
+        android:layout_weight="5.4"
         android:orientation="horizontal">
 
         <ImageView
