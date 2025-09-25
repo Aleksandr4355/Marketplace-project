@@ -9,26 +9,12 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
-    <androidx.appcompat.widget.SearchView
-        android:id="@+id/search_displays_product"
-        android:layout_width="match_parent"
-        android:layout_marginStart="10dp"
-        android:layout_marginEnd="10dp"
-        android:layout_height="45dp"
-        android:layout_marginTop="40dp"
-        android:layout_marginBottom="10dp"
-        android:background="@drawable/style_search_panel"/>
-
     <FrameLayout
+        android:id="@+id/frame_layout_screen_fragment"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:layout_marginTop="40dp"
         android:layout_weight="1">
-
-        <ScrollView
-            android:id="@+id/scrollView_fragment_displays_product"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:background="@color/fon_screen_product"/>
 
     </FrameLayout>
     
@@ -37,7 +23,7 @@
         android:layout_height="match_parent"
         android:layout_marginTop="6dp"
         android:layout_marginBottom="9dp"
-        android:layout_weight="5.4"
+        android:layout_weight="11.7"
         android:orientation="horizontal">
 
         <ImageView

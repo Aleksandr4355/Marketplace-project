@@ -6,9 +6,24 @@
     tools:context=".FragmentDisplayProduct.FragmentDisplayProduct">
 
     <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:orientation="vertical">
+        <androidx.appcompat.widget.SearchView
+            android:id="@+id/search_displays_product"
+            android:layout_width="match_parent"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_height="45dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/style_search_panel"/>
 
+        <ScrollView
+            android:id="@+id/scrollView_fragment_displays_product"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/fon_screen_product"/>
+
+    </LinearLayout>
 </FrameLayout>
