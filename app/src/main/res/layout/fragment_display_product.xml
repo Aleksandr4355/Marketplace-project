@@ -10,20 +10,20 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical">
+
         <androidx.appcompat.widget.SearchView
             android:id="@+id/search_displays_product"
             android:layout_width="match_parent"
+            android:layout_height="45dp"
             android:layout_marginStart="10dp"
             android:layout_marginEnd="10dp"
-            android:layout_height="45dp"
             android:layout_marginBottom="10dp"
-            android:background="@drawable/style_search_panel"/>
+            android:background="@drawable/style_search_panel" />
 
-        <ScrollView
-            android:id="@+id/scrollView_fragment_displays_product"
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerview_fragment_displays_product"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:background="@color/fon_screen_product"/>
+            android:layout_height="match_parent" />
 
     </LinearLayout>
 </FrameLayout>
